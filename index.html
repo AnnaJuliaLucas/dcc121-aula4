@@ -4,17 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        li.residente{
+            color: brown;
+        }
+        li.cidade{
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            font-size: medium;
+        }
+        li.estado{
+            text-decoration: underline;
+            text-decoration-style: dashed;
+            font-size: medium;
+        }
+    </style>
 </head>
 
 <body>
     <h1> Exemplo 04: CSS</h1>
-    <ul>
-        <li style="font-size: x-large;">Minas Gerais</li>
-        <li style="font-weight: bolder;">Rio de Janeiro</li>
-        <li style="font-size: x-small; font-weight: lighter;">São Paulo</li>
-        <li style="font-size: x-small; font-weight: bolder; font-variant: small-caps"> Espirito Santo</li>
-    </ul>
+    <ol>
+        <li class="estado">Minas Gerais</li>
+        <ul>
+            <li class="cidade residente">Juiz de Fora</li>
+            <li class="cidade">Belo Horizonte</li>
+            <li class="cidade">Bicas</li>
+        </ul>
 
+        <li class="estado">Rio de Janeiro</li>
+        <ul> 
+            <li class="cidade">Barra Mansa</li>
+            <li class="cidade">Três Rios</li>
+        </ul>
+        <li class="estado">São Paulo</li>
+        <ul>
+            <li class="cidade">São Paulo</li>
+            <li class="cidade">Santos</li>
+
+        </ul>
+        <li class="estado"> Espirito Santo</li>
+        <ul>
+            <li class="cidade">Vitoria</li>
+            <li class="cidade">Guarapari</li>
+        </ul>
+    </ol>
 
 </body>
 
