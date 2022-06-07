@@ -1,0 +1,29 @@
+div{
+    background-color: rgb(173, 187, 250);
+    color: rgb(12, 109, 148);
+    display: block; font-size: x-large;
+    width: 200px;
+    height: 120px;
+    overflow: auto;
+    padding: 10px;
+    margin: 30px;
+    border: solid black 2px; 
+    box-sizing: border-box;
+}
+
+#a{
+    background-color: rgb(217, 191, 241);
+    margin-right:25px;
+}
+
+#b{
+    background-color: aliceblue;
+    padding: 20px 10px 5PX 0px;
+    float: right;
+
+}
+
+#c{
+    background-color: aquamarine;
+    float:right;
+}
